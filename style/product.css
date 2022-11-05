@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-size: 16px;
+    background-color: #1D1A21;
+}
+
+@font-face {
+    font-family: aileron;
+    src: url('../font/aileron-regular-webfont.woff') format('woff'), 
+         url('../font/aileron-regular-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: blackjack;
+    src: url('../font/blackjack-webfont.woff') format('woff'), 
+         url('../font/blackjack-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: grandhotel;
+    src: url('../font/grandhotel-regular-webfont.woff') format('woff'), 
+         url('../font/grandhotel-regular-webfont.woff2') format('woff2');
+    
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: signika;
+    src: url('../font/signika-variablefont_wght-webfont.woff') format('woff'), 
+         url('../font/signika-variablefont_wght-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* ----- Styling Product ----- */ 
+.recomendations-menu {
+    height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/main_background/main-bg-1.jpg');
+}
+
+.dark-layer-2 {
+    padding: 30px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-product > h1 {
+    margin-top: 100px;
+
+    font-family: signika;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.left-product > .tx-1 {
+    margin-top: 50px;
+
+    text-transform: capitalize;
+    font-family: signika;
+    font-size: 1.8rem;
+
+    color: #fff;
+}
+
+.left-product > .tx-2 {
+    margin-top: 50px;
+
+    text-transform: capitalize;
+    font-family: signika;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.left-product > button {
+    margin-top: 30px;
+
+    width: 200px;
+    height: 50px;
+
+    font-size: 1.3rem;
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: 50px;
+
+    background-color: #FFBD59;
+    color: #1D1A21;
+
+    cursor: pointer;
+}
+
+.left-product > button:hover  {
+    color: #FFBD59;
+    background-color: #fff;
+}
+
+.right-product img {
+    margin-top: 100px;
+    margin-right: 70px;
+    width: 500px;
+    height: 400px;
+}
+
+.more-menu {
+    margin-left: 15px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+}
+
+.product > h1 { 
+    color: #fff;
+
+    margin-bottom: 30px;
+    margin-left: 45px;
+    
+    font-family: aileron;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.more-menu img {
+    width: 614px;
+    height: 411px;
+}
+
+.more-menu .overlay-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    font-family: aileron;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+}
+
+.order-now {
+    width: 614px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.text-order {
+    width: 60%;
+}
+
+.text-order p {
+    padding: 10px;
+
+    color: #1D1A21;
+    font-family: aileron;
+    font-size: 1.6rem;
+
+    background-color: #FFBD59;
+}
+
+.order-now > button { 
+    width: 40%;
+    height: 127px;
+
+    font-family: aileron;
+    font-size: 2.3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    border: none;
+    text-transform: uppercase;
+    background-color: #E19625;
+
+    cursor: pointer;
+}
+
+.order-now > button:hover {
+    color: #FFBD59;
+    background-color: #fff;
+}
+/* ----- End of Product ----- */

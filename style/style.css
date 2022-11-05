@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-size: 16px;
+    background-color: #1D1A21;
+}
+
+@font-face {
+    font-family: aileron;
+    src: url('../font/aileron-regular-webfont.woff') format('woff'), 
+         url('../font/aileron-regular-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: blackjack;
+    src: url('../font/blackjack-webfont.woff') format('woff'), 
+         url('../font/blackjack-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: grandhotel;
+    src: url('../font/grandhotel-regular-webfont.woff') format('woff'), 
+         url('../font/grandhotel-regular-webfont.woff2') format('woff2');
+    
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: signika;
+    src: url('../font/signika-variablefont_wght-webfont.woff') format('woff'), 
+         url('../font/signika-variablefont_wght-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* ----- Styling popup -----  */
+#popup-container {
+    width: 50%;
+    z-index: 5;
+    padding: 20px;
+    box-sizing: border-box;
+
+    background-color: rgba(179, 179, 179, 0.781);
+
+    border: 2px solid red;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 420px;
+    left: 23%;
+
+    display: none;
+}
+
+#popup-container > .message-box > h2 {
+    font-family: aileron;
+    font-size: 1.3rem;
+    font-weight: normal;
+
+    text-align: center;
+}
+
+#popup-container > .basket > img {
+    width: 150px;
+    height: 150px;
+    margin-left: 230px;
+    border-radius: 50%;
+
+}
+
+#popup-container > #close > img {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    cursor: pointer;
+}
+/* ----- End of popup ----- */

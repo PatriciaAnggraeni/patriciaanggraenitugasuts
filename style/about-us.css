@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-size: 16px;
+    background-color: #1D1A21;
+}
+
+@font-face {
+    font-family: aileron;
+    src: url('../font/aileron-regular-webfont.woff') format('woff'), 
+         url('../font/aileron-regular-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: blackjack;
+    src: url('../font/blackjack-webfont.woff') format('woff'), 
+         url('../font/blackjack-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: grandhotel;
+    src: url('../font/grandhotel-regular-webfont.woff') format('woff'), 
+         url('../font/grandhotel-regular-webfont.woff2') format('woff2');
+    
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: signika;
+    src: url('../font/signika-variablefont_wght-webfont.woff') format('woff'), 
+         url('../font/signika-variablefont_wght-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* ----- Styling About Us ----- */
+.about-us {
+    height: 100vh;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/main_background/main-bg-5.jpg');
+
+}
+
+.about-us > .dark-layer-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 30px;
+}
+
+.dark-layer-3 {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.mission h1 { 
+    color: #fff;
+    margin-bottom: 30px;
+
+    font-family: signika;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.mission p {
+    color: #fff;
+    margin-bottom: 30px;
+
+    font-family: signika;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.mission > .start-at {
+    color: #fff;
+    margin-bottom: 30px;
+
+    font-family: signika;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}   
+
+.founder > img {
+    width: 300px;
+    height: 300px;
+
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.founder > p { 
+    color: #fff;
+    margin-top: 20px;
+
+    font-family: signika;
+    font-size: 2rem;
+
+    text-transform: capitalize;
+    text-align: center;
+}
+/* ----- End of About Us */

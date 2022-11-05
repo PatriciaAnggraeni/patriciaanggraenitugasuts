@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-size: 16px;
+    background-color: #1D1A21;
+}
+
+@font-face {
+    font-family: aileron;
+    src: url('../font/aileron-regular-webfont.woff') format('woff'), 
+         url('../font/aileron-regular-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: blackjack;
+    src: url('../font/blackjack-webfont.woff') format('woff'), 
+         url('../font/blackjack-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: grandhotel;
+    src: url('../font/grandhotel-regular-webfont.woff') format('woff'), 
+         url('../font/grandhotel-regular-webfont.woff2') format('woff2');
+    
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: signika;
+    src: url('../font/signika-variablefont_wght-webfont.woff') format('woff'), 
+         url('../font/signika-variablefont_wght-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* ----- Styling Footer ----- */
+
+/* ----- Left Footer */
+.footer {
+    height: 85vh;
+
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #242226;
+}
+
+.footer h1, p {
+    color: #fff;
+    font-family: signika;
+    text-transform: capitalize;
+}
+
+.left-footer ul li {
+    list-style-type: none;
+    float: left;
+
+    margin-right: 20px;
+}
+
+.logo-footer > ul > li > img {
+    margin-top: 70px;
+    margin-bottom: 150px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.connect-with-us > ul > li > img {
+    margin-top: 30px;
+    margin-bottom: 80px;
+
+    width: 40px;
+    height: 40px;
+}
+
+.copyright > p {
+    font-size: 1.5rem;
+}
+
+/* ----- Right Footer */
+.location > h1 {
+    margin-top: 70px;
+    margin-bottom: 10px;
+
+    letter-spacing: 3px;
+}
+
+.location > p {
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+}
+
+.contact-me { 
+    margin-top: 30px;
+    font-size: 1.5rem;
+    line-height: 35px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+/* ----- End of Footeer ----- */

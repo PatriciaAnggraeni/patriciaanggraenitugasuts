@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-size: 16px;
+    background-color: #1D1A21;
+}
+
+@font-face {
+    font-family: aileron;
+    src: url('../font/aileron-regular-webfont.woff') format('woff'), 
+         url('../font/aileron-regular-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: blackjack;
+    src: url('../font/blackjack-webfont.woff') format('woff'), 
+         url('../font/blackjack-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: grandhotel;
+    src: url('../font/grandhotel-regular-webfont.woff') format('woff'), 
+         url('../font/grandhotel-regular-webfont.woff2') format('woff2');
+    
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: signika;
+    src: url('../font/signika-variablefont_wght-webfont.woff') format('woff'), 
+         url('../font/signika-variablefont_wght-webfont.woff2') format('woff2');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* ----- Styling of Services Content ----- */
+.services-content {
+    margin-top: 300px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-services-content { 
+    padding: 30px;
+}
+
+.left-services-content > h1 {
+    margin-top: 100px;
+
+    font-family: signika;
+    font-size: 3.5rem;
+    color: #FFBD59;
+
+    text-transform: capitalize;
+}
+
+.left-services-content > p {
+    margin-top: 50px;
+
+    font-family: signika;
+    font-size: 2rem;
+    font-weight: 200;
+
+    color: #FFBD59;
+    text-align: justify;
+}
+
+.left-services-content > button {
+    margin-top: 50px;
+
+    font-family: aileron;
+    font-size: 1.7rem;
+    font-weight: 200;
+    text-transform: uppercase;
+
+    width: 200px;
+    height: 60px;
+
+    background-color: #FFBD59;
+    border: none;
+    border-radius: 50px;
+
+    cursor: pointer;
+}
+
+.left-services-content > button:hover {
+    color: #FFBD59;
+    background-color: #fff;
+}
+
+.right-services-content {
+    padding: 30px;  
+}
+
+.right-services-content > img {
+    margin-top: 100px;
+
+    width: 570px;
+    height: 100vh;
+    box-shadow: 15px 15px 20px #000;
+}
+/* ----- End of Services Content ----- */

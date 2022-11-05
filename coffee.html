@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cofee Cafe</title>   
+
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/header.css">
+        <link rel="stylesheet" href="style/services.css">
+        <link rel="stylesheet" href="style/product.css">
+        <link rel="stylesheet" href="style/about-us.css">
+        <link rel="stylesheet" href="style/footer.css">
+        <link rel="icon" type="image/x-icon" href="img/logo/my-logo-transparent.png">
+
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <div class="header" id="home">
+            <div class="dark-layer">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="img/logo/my-logo-2-transparent.png" alt="logo coffee cafe">
+                        <h1>coffee cafe</h1>
+                    </div>
+                    <div class="menu-nav">
+                        <ul>
+                            <li><a data-link="home" class="scroll-to">home</a></li>
+                            <li><a data-link="services" class="scroll-to">services</a></li>
+                            <li><a data-link="product" class="scroll-to">product</a></li>
+                            <li><a data-link="about" class="scroll-to">about</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="text-header">
+                    <div class="left">
+                        <p>with premium <br> coffee bean <p>
+                        <p class="discount">discount 50% for <br> first customers!</p>
+                    </div>
+                    <div class="right">
+                        <p>expresso your life!</p>
+                        <button id="view-more">view more</button>
+                    </div>
+                </div>
+    
+                <img src="img/logo/my-logo-transparent.png" alt="logo coffee cafe">
+    
+            </div>
+        </div>
+
+        <div class="services-content" id="services">
+            <div class="left-services-content"> 
+                <h1>kenapa produk <br> kami? </h1>
+                <p>
+                    produk kami dipilih dari biji kopi pilihan yang sudah melewati seleksi 
+                    ketat guna menghasilkan tingkat kekentalan yang sesuai saat diseduh, 
+                    memiliki aroma yang menggoda dan terjamin keasliannya. 
+                </p>
+                <button id="quick-order">kuy pesan!</button>
+            </div>
+            <div class="right-services-content">
+                <img src="img/sub_img/sub-main-1.jpg" alt="kopi premium">
+            </div>
+        </div>
+
+        <div class="product" id="product">
+            <div class="recomendations-menu" id="recomendation">
+                <div class="dark-layer-2">
+                    <div class="left-product">
+                        <h1>rekomendasi menu kopi <br> hari ini </h1>
+                        <p class="tx-1">
+                            mau beli kopi tapi bingung mau <br> beli yang mana? tenang, mimin <br> 
+                            sudah kasih rekomendasi <br> kopi kok buat kamu!
+                        </p>
+                        <p class="tx-2">masih belum menemukan kopi <br> yang cocok?</p>
+                        <button id="go-to-other-menu">lihat menu</button>
+                    </div>
+                    <div class="right-product">
+                        <img name="slides" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <h1 id="other-menu">menu lainnya</h1>
+            <div class="more-menu" style="position: relative;">
+
+                <div id="popup-container">
+                    <div class="basket">
+                        <img src="img/gif/trolley-basket.gif" alt="trolly">
+                    </div>
+                    <div class="message-box">
+                        <h2>Terimakasih telah memesan :)</h2>
+                        <h2>Pesanan sedang diproses nih, mohon tunggu ya!!</h2>
+                    </div>
+                    <div id="close">
+                        <img src="img/gif/multiply.png" alt="close">
+                    </div>
+                </div>
+
+                <div class="expresso-coffee" style="position: relative; color: #fff;">
+                    <img src="img/menu_coffee/coffee-expresso.jpg" alt="expresso">
+                    <div class="overlay-text">expresso coffee</div>
+                    <div class="order-now">
+                        <div class="text-order">
+                            <p>
+                                turu tidak perlu, <br> nugas nomor satu!
+                            </p>
+                            <p>rp 25.000,00</p>
+                        </div>
+                        <button id="expresso">pesan</button>
+                    </div>
+                </div>
+
+                <div class="coffee-late" style="position: relative; color: #fff;">
+                    <img src="img/menu_coffee/coffee-late.jpg" alt="coffe late">
+                    <div class="overlay-text">coffee late</div>
+                    <div class="order-now">
+                        <div class="text-order">
+                            <p>
+                                menu merakyat bagi <br> pelanggan cafe!
+                            </p>
+                            <p>rp 30.000,00</p>
+                        </div>
+                        <button id="coffe-late">pesan</button>
+                    </div>
+                </div>
+
+                <div class="americano-coffee" style="position: relative; color: #000;">
+                    <img src="img/menu_coffee/cafe-americano.jpg" alt="americano">
+                    <div class="overlay-text">americano coffee</div>
+                    <div class="order-now">
+                        <div class="text-order">
+                            <p>
+                                hanya lebih manis dari <br> expresso coffee!
+                            </p>
+                            <p>rp 35.000,00</p>
+                        </div>
+                        <button id="americano">pesan</button>
+                    </div>
+                </div>
+
+                <div class="flat-white-coffee" style="position: relative; color: #fff;">
+                    <img src="img/menu_coffee/flat-white.jpg" alt="flat white coffee">
+                    <div class="overlay-text">flat white coffee</div>
+                    <div class="order-now">
+                        <div class="text-order">
+                            <p>
+                                kopi yang memiliki <br> nilai seni barista!
+                            </p>
+                            <p>rp 40.000,00</p>
+                        </div>
+                        <button id="flat-white">pesan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-us" id="about">
+            <div class="dark-layer-3">
+                <div class="mission">
+                    <h1>misi kami</h1>
+                    <p>
+                        menyajikan kopi berkualitas yang menghasilkan aroma <br> 
+                        khas saat pertama kali diseduh dan juga memenuhi <br> 
+                        kebutuhan fashion anda.
+                    </p>
+                    <p class="start-at">
+                        memulai operasi pada tahun 2019
+                    </p>
+                </div>
+    
+                <div class="founder">
+                    <img src="img/my_foto/foto-dua.jpeg" alt="foto profil">
+                    <p>patria anggara</p>
+                    <p>founder coffee cafe</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="left-footer">
+                <div class="logo-footer cf">
+                    <ul>
+                        <li><img src="img/logo/my-logo-transparent.png" alt="logo coffee cafe"></li>
+                        <li><img src="img/logo/halal-logo.png" alt="logo halal"></li>
+                    </ul>
+                </div>
+                <div class="connect-with-us cf">
+                    <h1>connect with us</h1>
+                    <ul>
+                        <li><img src="img/contact_us/facebook.png" alt="facebook"></li>
+                        <li><img src="img/contact_us/instagram.png" alt="instagram"></li>
+                        <li><img src="img/contact_us/twitter.png" alt="twitter"></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p>hak cipta @2019 <span style="text-transform: uppercase;">pt</span> coffe cafe</p>
+                </div>
+            </div>
+            <div class="right-footer">
+                <div class="location">
+                    <h1>lokasi kami</h1>
+                    <p>
+                        jalan wahyu hidayat II <span style="text-transform: uppercase;">rt 17/ rw 05,</span> wayut <br> 
+                        kec. jiwan kab. madiun.
+                    </p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.794239903695!2d111.51252931450686!3d-7.597359077187274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79bfa48b2a1f39%3A0x58ab5d3390777668!2sJl.%20Wahyu%20Hidayat%202%2C%20Wayut%2C%20Kec.%20Jiwan%2C%20Kabupaten%20Madiun%2C%20Jawa%20Timur%2063161!5e0!3m2!1sid!2sid!4v1666084111556!5m2!1sid!2sid" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-me">
+                    <p>
+                        bisa contact melalui WhatsApp [chat only]
+                    </p>
+                    <p style="font-weight: bold;">089-539-909-1596</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
